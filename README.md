@@ -14,7 +14,7 @@ In your main method, use the following test cases:
 System.out.println(gcd(5,10)); // 5
 System.out.println(gcd(35,7)); // 7
 System.out.println(gcd(1071,462)); // 21
-System.out.println(gcd(1386,3213)); // 63
+System.out.println(gcd(1386,3213)); // 52
 ```
 
 ## Sum Digits of a Number
