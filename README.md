@@ -40,10 +40,10 @@ Write the public method `binarySearch(int[] arr, int target)` which returns the 
 In your main method, use the following test cases:
 
 ```java
-System.out.println(binarySearch({1, 3, 5, 7, 9, 11, 13}, 7)); // 3
-System.out.println(binarySearch({2, 4, 6, 8, 10}, 6)); // 2
-System.out.println(binarySearch({42}, 42)); // 0
-System.out.println(binarySearch({10, 100, 1000, 10000, 100000}, 500)); // -1
+System.out.println(binarySearch(new int[]{1, 3, 5, 7, 9, 11, 13}, 7)); // 3
+System.out.println(binarySearch(new int[]{2, 4, 6, 8, 10}, 6)); // 2
+System.out.println(binarySearch(new int[]{42}, 42)); // 0
+System.out.println(binarySearch(new int[]{10, 100, 1000, 10000, 100000}, 500)); // -1
 ```
 
 ## Binary Representation of a Number
