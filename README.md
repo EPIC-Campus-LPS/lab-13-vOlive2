@@ -26,7 +26,7 @@ In your main method, use the following test cases:
 ```java
 System.out.println(sumDigits(123)); // 6
 System.out.println(sumDigits(12345)); // 15
-System.out.println(sumDigits(95473616384058673626))); // 99
+System.out.println(sumDigits(95473616384058673))); // 99
 ```
 
 ## Binary Search in a Sorted Array
