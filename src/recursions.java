@@ -23,6 +23,10 @@ public class recursions {
 		return b + sumDigits(a);
 	}
 	public static int binarySearch(int[] arr, int target) {	
-		
+		return b;
+	}
+	public static int binaryRep(int a) {	
+		int b = a;
+		return b;
 	}
 }
