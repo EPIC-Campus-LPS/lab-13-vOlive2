@@ -8,6 +8,7 @@ public class recursions {
 		System.out.println(sumDigits(123)); // 6
 		System.out.println(sumDigits(12345)); // 15
 		System.out.println(sumDigits(954736163)); // 44
+		System.out.println(binaryRep()); // 1
 	}
 	public static int gcd(int a, int b) {		
 		if(a < b) {int c=a; a=b; b=c;}
@@ -23,10 +24,10 @@ public class recursions {
 		return b + sumDigits(a);
 	}
 	public static int binarySearch(int[] arr, int target) {	
-		return b;
+		return 0;
 	}
-	public static int binaryRep(int a) {	
-		int b = a;
-		return b;
+	public static String binaryRep(int a) {	
+		if(a == 0 || a == 1) return ""+a;
+		return binaryRep(a/2)+binaryRep(a%2);
 	}
 }
